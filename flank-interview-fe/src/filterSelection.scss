@@ -1,0 +1,19 @@
+@import "variables";
+
+.options button {
+    background-color: $white-color;
+    border-radius: $medium-border-radius;
+    margin: 0 0.2rem 0 0.2rem;
+    height: 45px;
+    width: 65px;
+    transition: all 0.1s ease;
+}
+
+.options button:hover {
+    background-color: $flank-green-bg-hover;
+    cursor: pointer;
+}
+
+.options button.selected {
+    background-color: $flank-green-bg-active;
+}
